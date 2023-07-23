@@ -5,10 +5,14 @@ body {
 }
 
 .header,
-.hero {
+.hero,
+.info,
+.quote,
+.action,
+.footer {
   display: flex;
-  padding-left: 210px;
   padding-right: 210px;
+  padding-left: 210px;
 }
 
 .header,
@@ -44,6 +48,7 @@ body {
 }
 
 .hero {
+  justify-content: center;
   align-items: center;
   gap: 40px;
 }
