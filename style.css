@@ -36,6 +36,10 @@ body {
   background-color: #3882f6;
 }
 
+.font-bold {
+  font-weight: 600;
+}
+
 .font-extra-bold {
   font-weight: 800;
 }
@@ -71,22 +75,11 @@ body {
   padding-left: 208px;
 }
 
-.header,
-.hero {
-  background-color: #1f2937;
-}
-
 .header {
   justify-content: space-between;
   align-items: center;
   padding-top: 18px;
   padding-bottom: 18px;
-}
-
-.logo {
-  font-size: 24px;
-  color: #f9fafb;
-  font-weight: 800;
 }
 
 .header-links {
@@ -98,8 +91,6 @@ body {
 }
 
 .header-links a {
-  font-size: 18px;
-  color: #e5e7eb;
   text-decoration: none;
 }
 
@@ -111,23 +102,11 @@ body {
   padding-bottom: 135px;
 }
 
-.hero-main {
-  font-size: 48px;
-  color: #f9fafb;
-  font-weight: 800;
-}
-
 .hero-secondary {
-  font-size: 18px;
-  color: #e5e7eb;
   padding-bottom: 12px;
 }
 
 .hero-button {
-  font-size: 17px;
-  color: #f9fafb;
-  font-weight: 600;
-  background-color: #3882f6;
   padding: 8px 34px;
   border-radius: 8px;
   border-style: none;
