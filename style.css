@@ -4,6 +4,58 @@ body {
   padding: 0;
 }
 
+.fg-dark {
+  color: #1f2937;
+}
+
+.fg-white {
+  color: #f9fafb;
+}
+
+.fg-grey {
+  color: #e5e7eb;
+}
+
+.fg-blue {
+  color: #3882f6;
+}
+
+.bg-dark {
+  background-color: #1f2937;
+}
+
+.bg-light {
+  background-color: #f9fafb;
+}
+
+.bg-grey {
+  background-color: #e5e7eb;
+}
+
+.bg-blue {
+  background-color: #3882f6;
+}
+
+.extra-bold-font {
+  font-weight: 800;
+}
+
+.font-size-18 {
+  font-size: 18px;
+}
+
+.font-size-24 {
+  font-size: 24px;
+}
+
+.font-size-36 {
+  font-size: 36px;
+}
+
+.font-size-48 {
+  font-size: 48px;
+}
+
 .header,
 .hero,
 .info,
