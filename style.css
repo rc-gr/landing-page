@@ -6,14 +6,21 @@ body {
 
 .header,
 .hero {
+  display: flex;
+  padding-left: 210px;
+  padding-right: 210px;
+}
+
+.header,
+.hero {
   background-color: #1f2937;
 }
 
 .header {
-  display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 18px 210px;
+  padding-top: 18px;
+  padding-bottom: 18px;
 }
 
 .logo {
@@ -31,7 +38,23 @@ body {
 }
 
 .header-links a {
+  font-size: 18px;
+  color: #e5e7eb;
   text-decoration: none;
+}
+
+.hero {
+  align-items: center;
+  gap: 40px;
+}
+
+.hero-main {
+  font-size: 48px;
+  color: #f9fafb;
+  font-weight: 800;
+}
+
+.hero-secondary {
   font-size: 18px;
   color: #e5e7eb;
 }
