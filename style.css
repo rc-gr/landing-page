@@ -8,12 +8,20 @@ body {
   color: #1f2937;
 }
 
+.fg-pure-white {
+  color: #fff;
+}
+
 .fg-white {
   color: #f9fafb;
 }
 
 .fg-grey {
   color: #e5e7eb;
+}
+
+.fg-grey-2 {
+  color: #e0e0e0;
 }
 
 .fg-dark-grey {
@@ -80,10 +88,14 @@ body {
 .hero,
 .info,
 .quote,
-.action,
 .footer {
   padding-right: 208px;
   padding-left: 208px;
+}
+
+.hero-button, .action-button {
+  padding: 8px 34px;
+  border-radius: 8px;
 }
 
 .header {
@@ -120,8 +132,6 @@ body {
 }
 
 .hero-button {
-  padding: 8px 34px;
-  border-radius: 8px;
   border-style: none;
 }
 
@@ -182,4 +192,17 @@ body {
   width: 800px;
   text-align: right;
   max-height: 0px;
+}
+
+.action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 120px;
+  margin: 100px 208px;
+  border-radius: 8px;
+}
+
+.action-button {
+  border: 2px solid white;
 }
