@@ -125,6 +125,10 @@ body {
   border-style: none;
 }
 
+.info {
+  padding-bottom: 120px;
+}
+
 .info-heading {
   display: flex;
   justify-content: center;
@@ -137,7 +141,6 @@ body {
   justify-content: center;
   text-align: center;
   gap: 48px;
-  padding-bottom: 135px;
 }
 
 .info-media-item {
@@ -165,8 +168,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 130px;
+  padding-bottom: 130px;
 }
 
 .quote-speech {
