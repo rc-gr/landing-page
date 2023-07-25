@@ -206,3 +206,9 @@ body {
 .action-button {
   border: 2px solid white;
 }
+
+.footer {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
