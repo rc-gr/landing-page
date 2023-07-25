@@ -40,12 +40,20 @@ body {
   background-color: #3882f6;
 }
 
+.font-light {
+  font-weight: 300;
+}
+
 .font-bold {
   font-weight: 600;
 }
 
 .font-extra-bold {
   font-weight: 800;
+}
+
+.font-italic {
+  font-style: italic;
 }
 
 .font-size-17 {
