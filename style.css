@@ -145,6 +145,7 @@ body {
   height: 170px;
   border: 4px solid #3882f6;
   border-radius: 16px;
+  margin-bottom: 6px;
 }
 
 .info-media-item-image img {
