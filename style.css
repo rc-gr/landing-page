@@ -136,10 +136,18 @@ body {
   max-width: 170px;
 }
 
-.info-media-item img {
+.info-media-item-image {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
   box-sizing: border-box;
   width: 170px;
   height: 170px;
   border: 4px solid #3882f6;
   border-radius: 16px;
+}
+
+.info-media-item-image img {
+  width: 100%;
+  height: 100%;
 }
