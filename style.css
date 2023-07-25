@@ -178,7 +178,8 @@ body {
 }
 
 .quote-speaker {
-  align-self: flex-end;
   padding-right: 40px;
+  width: 800px;
+  text-align: right;
   max-height: 0px;
 }
