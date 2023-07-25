@@ -160,3 +160,22 @@ body {
   width: 100%;
   height: 100%;
 }
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.quote-speech {
+  padding-left: 40px;
+  max-width: 800px;
+}
+
+.quote-speaker {
+  align-self: flex-end;
+  padding-right: 40px;
+  max-height: 0px;
+}
